@@ -1,0 +1,11 @@
+.\_release\start_manager.o: ..\..\..\libs\eMD6\core\mllite\start_manager.c
+.\_release\start_manager.o: F:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\_release\start_manager.o: ..\..\..\libs\eMD6\core\driver\include\log.h
+.\_release\start_manager.o: F:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\_release\start_manager.o: F:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\_release\start_manager.o: ..\..\..\libs\eMD6\core\mllite\start_manager.h
+.\_release\start_manager.o: ..\..\..\libs\eMD6\core\driver\include\mltypes.h
+.\_release\start_manager.o: ..\..\..\libs\eMD6\core\driver\include\stdint_invensense.h
+.\_release\start_manager.o: F:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\_release\start_manager.o: F:\Keil_v5\ARM\ARMCC\Bin\..\include\errno.h
+.\_release\start_manager.o: F:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h

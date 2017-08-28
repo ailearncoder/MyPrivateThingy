@@ -1,0 +1,17 @@
+.\_release\hal_outputs.o: ..\..\..\libs\eMD6\core\mllite\hal_outputs.c
+.\_release\hal_outputs.o: F:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\_release\hal_outputs.o: ..\..\..\libs\eMD6\core\mllite\hal_outputs.h
+.\_release\hal_outputs.o: ..\..\..\libs\eMD6\core\driver\include\mltypes.h
+.\_release\hal_outputs.o: ..\..\..\libs\eMD6\core\driver\include\stdint_invensense.h
+.\_release\hal_outputs.o: F:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\_release\hal_outputs.o: F:\Keil_v5\ARM\ARMCC\Bin\..\include\errno.h
+.\_release\hal_outputs.o: F:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+.\_release\hal_outputs.o: ..\..\..\libs\eMD6\core\driver\include\log.h
+.\_release\hal_outputs.o: F:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\_release\hal_outputs.o: F:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\_release\hal_outputs.o: ..\..\..\libs\eMD6\core\mllite\ml_math_func.h
+.\_release\hal_outputs.o: ..\..\..\libs\eMD6\core\driver\include\mlmath.h
+.\_release\hal_outputs.o: F:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\_release\hal_outputs.o: ..\..\..\libs\eMD6\core\mllite\start_manager.h
+.\_release\hal_outputs.o: ..\..\..\libs\eMD6\core\mllite\data_builder.h
+.\_release\hal_outputs.o: ..\..\..\libs\eMD6\core\mllite\results_holder.h

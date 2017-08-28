@@ -1,0 +1,10 @@
+.\_release\lspquan.o: ..\..\..\libs\bv32fp-1.2\lspquan.c
+.\_release\lspquan.o: F:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\_release\lspquan.o: ..\..\..\include\macros\macros_common.h
+.\_release\lspquan.o: ..\..\..\external\segger_rtt\SEGGER_RTT.h
+.\_release\lspquan.o: ..\..\..\external\segger_rtt\SEGGER_RTT_Conf.h
+.\_release\lspquan.o: F:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.14.1\Device\Include\compiler_abstraction.h
+.\_release\lspquan.o: ..\..\..\libs\bv32fp-1.2\typedef.h
+.\_release\lspquan.o: ..\..\..\libs\bv32fp-1.2\bv32cnst.h
+.\_release\lspquan.o: ..\..\..\libs\bv32fp-1.2\bvcommon.h
+.\_release\lspquan.o: ..\..\..\libs\bv32fp-1.2\bv32externs.h

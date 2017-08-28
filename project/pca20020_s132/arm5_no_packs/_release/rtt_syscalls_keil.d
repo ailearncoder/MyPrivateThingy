@@ -1,0 +1,11 @@
+.\_release\rtt_syscalls_keil.o: ..\..\..\external\segger_rtt\RTT_Syscalls_KEIL.c
+.\_release\rtt_syscalls_keil.o: F:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\_release\rtt_syscalls_keil.o: F:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\_release\rtt_syscalls_keil.o: F:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\_release\rtt_syscalls_keil.o: F:\Keil_v5\ARM\ARMCC\Bin\..\include\rt_sys.h
+.\_release\rtt_syscalls_keil.o: F:\Keil_v5\ARM\ARMCC\Bin\..\include\rt_misc.h
+.\_release\rtt_syscalls_keil.o: F:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\_release\rtt_syscalls_keil.o: F:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\_release\rtt_syscalls_keil.o: ..\..\..\external\segger_rtt\SEGGER_RTT.h
+.\_release\rtt_syscalls_keil.o: ..\..\..\external\segger_rtt\SEGGER_RTT_Conf.h
+.\_release\rtt_syscalls_keil.o: F:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.14.1\Device\Include\compiler_abstraction.h

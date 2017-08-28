@@ -1,0 +1,17 @@
+.\_build\drv_i2c.o: ..\..\..\drv_i2c.c
+.\_build\drv_i2c.o: ..\..\..\drv_i2c.h
+.\_build\drv_i2c.o: F:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\_build\drv_i2c.o: ..\..\..\..\..\..\components\drivers_nrf\hal\nrf_gpio.h
+.\_build\drv_i2c.o: F:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.14.1\Device\Include\nrf.h
+.\_build\drv_i2c.o: F:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.14.1\Device\Include\nrf52.h
+.\_build\drv_i2c.o: F:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h
+.\_build\drv_i2c.o: F:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h
+.\_build\drv_i2c.o: F:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h
+.\_build\drv_i2c.o: F:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h
+.\_build\drv_i2c.o: F:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h
+.\_build\drv_i2c.o: F:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.14.1\Device\Include\system_nrf52.h
+.\_build\drv_i2c.o: F:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.14.1\Device\Include\nrf52_bitfields.h
+.\_build\drv_i2c.o: F:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.14.1\Device\Include\nrf51_to_nrf52.h
+.\_build\drv_i2c.o: F:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.14.1\Device\Include\nrf52_name_change.h
+.\_build\drv_i2c.o: F:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.14.1\Device\Include\compiler_abstraction.h
+.\_build\drv_i2c.o: F:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h

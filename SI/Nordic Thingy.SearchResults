@@ -1,5 +1,0 @@
----- m_motion.motion_freq_hz Matches (4 in 1 files) ----
-drv_motion.c (F:\360极速浏览器下载\thingy_sdk_v1.1.0\source\drivers):    (void)mpu_set_sample_rate(m_motion.motion_freq_hz);
-drv_motion.c (F:\360极速浏览器下载\thingy_sdk_v1.1.0\source\drivers):    (void)dmp_set_fifo_rate(m_motion.motion_freq_hz);
-drv_motion.c (F:\360极速浏览器下载\thingy_sdk_v1.1.0\source\drivers):    m_motion.motion_freq_hz        = p_cfg->motion_freq_hz;
-drv_motion.c (F:\360极速浏览器下载\thingy_sdk_v1.1.0\source\drivers):    m_motion.motion_freq_hz        = DEFAULT_MPU_HZ;

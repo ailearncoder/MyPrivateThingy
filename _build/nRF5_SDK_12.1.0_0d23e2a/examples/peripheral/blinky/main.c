@@ -55,15 +55,25 @@ int main(void)
 	{
 			.scl                = 19,
 			.sda                = 20,
+			//.frequency          = NRF_TWI_FREQ_400K,
 	};
 	
 	init_params.twi_addr=0x78;
 	init_params.p_twi_cfg=&twi_cfg;
 	drv_oled_init(&init_params);
-	
+	OLED_Clear();
+	char txt[20];
+	uint8_t num=0;
 	while(true)
 	{
-		drv_oled_test();
+		//nrf_delay_ms(1000);
+		//sprintf(txt,"NUM=0x%02X",num++);
+		//OLED_ShowString(0,0,txt,16);
+		//OLED_ShowChar(0,0,'F',24,1);
+		sprintf(txt,"NUM=0x%02X ",num++);
+		OLED_ShowString(num%128-1,0," ",16);
+		OLED_ShowString(num%128,0,txt,16);
+		OLED_Refresh_Gram();
 	}
 }
 /**

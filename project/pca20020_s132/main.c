@@ -71,6 +71,7 @@
 #include "pca20020.h"
 #include "app_error.h"
 #include "support_func.h"
+#include "m_oled.h"
 
 #define DEAD_BEEF   0xDEADBEEF          /**< Value used as error code on stack dump, can be used to identify stack location on stack unwind. */
 #define SCHED_MAX_EVENT_DATA_SIZE   MAX(APP_TIMER_SCHED_EVT_SIZE, BLE_STACK_HANDLER_SCHED_EVT_SIZE) /**< Maximum size of scheduler events. */
@@ -341,6 +342,7 @@ static void thingy_init(void)
     m_motion_init_t          motion_params;
     m_ble_init_t             ble_params;
     batt_meas_init_t         batt_meas_init = BATT_MEAS_PARAM_CFG;
+		m_oled_init_t            oled_params;
 
     /**@brief Initialize the TWI manager. */
     err_code = twi_manager_init(APP_IRQ_PRIORITY_THREAD);
@@ -389,6 +391,10 @@ static void thingy_init(void)
     
     err_code = support_func_ble_mac_address_print_rtt();
     APP_ERROR_CHECK(err_code);
+		
+		//oled_params.p_twi_instance=&m_twi_sensors;
+		//err_code = m_oled_init(&oled_params);
+		//APP_ERROR_CHECK(err_code);
 }
 
 
@@ -468,7 +474,7 @@ static void board_init(void)
  */
 int main(void)
 {
-    (void)SEGGER_RTT_WriteString(0, RTT_CTRL_TEXT_BRIGHT_GREEN"===== Start!! ====="RTT_CTRL_RESET"\n");
+    (void)SEGGER_RTT_WriteString(0, RTT_CTRL_TEXT_BRIGHT_GREEN"===== Hello PanPan !! ====="RTT_CTRL_RESET"\n");
 
     // Initialize.
     APP_SCHED_INIT(SCHED_MAX_EVENT_DATA_SIZE, SCHED_QUEUE_SIZE);

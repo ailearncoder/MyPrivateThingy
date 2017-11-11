@@ -342,7 +342,7 @@ static void thingy_init(void)
     m_motion_init_t          motion_params;
     m_ble_init_t             ble_params;
     batt_meas_init_t         batt_meas_init = BATT_MEAS_PARAM_CFG;
-		m_oled_init_t            oled_params;
+		//m_oled_init_t            oled_params;
 
     /**@brief Initialize the TWI manager. */
     err_code = twi_manager_init(APP_IRQ_PRIORITY_THREAD);

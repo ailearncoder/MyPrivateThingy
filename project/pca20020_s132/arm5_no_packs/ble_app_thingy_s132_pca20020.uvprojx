@@ -419,6 +419,11 @@
               <FilePath>..\..\..\source\modules\m_ble.c</FilePath>
             </File>
             <File>
+              <FileName>m_ble_mouse.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\source\modules\m_ble_mouse.c</FilePath>
+            </File>
+            <File>
               <FileName>m_ble_flash.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\..\source\modules\m_ble_flash.c</FilePath>
@@ -895,6 +900,81 @@
               <FileType>1</FileType>
               <FilePath>..\..\..\sdk_components\ble\ble_services\ble_bas\ble_bas.c</FilePath>
             </File>
+            <File>
+              <FileName>gatt_cache_manager.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\sdk_components\ble\peer_manager\gatt_cache_manager.c</FilePath>
+            </File>
+            <File>
+              <FileName>gatts_cache_manager.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\sdk_components\ble\peer_manager\gatts_cache_manager.c</FilePath>
+            </File>
+            <File>
+              <FileName>id_manager.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\sdk_components\ble\peer_manager\id_manager.c</FilePath>
+            </File>
+            <File>
+              <FileName>peer_data.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\sdk_components\ble\peer_manager\peer_data.c</FilePath>
+            </File>
+            <File>
+              <FileName>peer_data_storage.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\sdk_components\ble\peer_manager\peer_data_storage.c</FilePath>
+            </File>
+            <File>
+              <FileName>peer_database.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\sdk_components\ble\peer_manager\peer_database.c</FilePath>
+            </File>
+            <File>
+              <FileName>peer_id.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\sdk_components\ble\peer_manager\peer_id.c</FilePath>
+            </File>
+            <File>
+              <FileName>peer_manager.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\sdk_components\ble\peer_manager\peer_manager.c</FilePath>
+            </File>
+            <File>
+              <FileName>pm_buffer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\sdk_components\ble\peer_manager\pm_buffer.c</FilePath>
+            </File>
+            <File>
+              <FileName>pm_mutex.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\sdk_components\ble\peer_manager\pm_mutex.c</FilePath>
+            </File>
+            <File>
+              <FileName>security_dispatcher.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\sdk_components\ble\peer_manager\security_dispatcher.c</FilePath>
+            </File>
+            <File>
+              <FileName>security_manager.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\sdk_components\ble\peer_manager\security_manager.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>nRF_BLE_Services</GroupName>
+          <Files>
+            <File>
+              <FileName>ble_dis.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\sdk_components\ble\ble_services\ble_dis\ble_dis.c</FilePath>
+            </File>
+            <File>
+              <FileName>ble_hids.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\sdk_components\ble\ble_services\ble_hids\ble_hids.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -1126,6 +1206,11 @@
                   </Cads>
                 </FileArmAds>
               </FileOption>
+            </File>
+            <File>
+              <FileName>app_error_weak.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\sdk_components\libraries\util\app_error_weak.c</FilePath>
             </File>
             <File>
               <FileName>app_scheduler.c</FileName>
@@ -2006,7 +2091,7 @@
               <MiscControls></MiscControls>
               <Define>BLE_STACK_SUPPORT_REQD __HEAP_SIZE=0 S132 NRF_SD_BLE_API_VERSION=3 NRF52_PAN_12 NRF52_PAN_15 NRF52_PAN_20 NRF52_PAN_30 NRF52_PAN_31 NRF52_PAN_36 NRF52_PAN_51 NRF52_PAN_53 NRF52_PAN_54 NRF52_PAN_55 NRF52_PAN_58 NRF52_PAN_62 NRF52_PAN_63 NRF52_PAN_64 S132 NRF52832 NRF52 SOFTDEVICE_PRESENT SWI_DISABLE0 BSP_DEFINES_ONLY ARM_MATH_CM4 MPU9250 EMPL USE_DMP EMPL_TARGET_NRF52 NRF_LOG_USES_RTT BLE_DFU_APP_SUPPORT NRF_DFU_SETTINGS_VERSION=1 AUDIO_EQ_DEF=3</Define>
               <Undefine></Undefine>
-              <IncludePath>..\config;..\..\..\sdk_components\ble\ble_advertising;..\..\..\sdk_components\ble\common;..\..\..\external\segger_rtt;..\..\..\sdk_components\drivers_nrf\common;..\..\..\sdk_components\drivers_nrf\clock;..\..\..\sdk_components\drivers_nrf\config;..\..\..\sdk_components\drivers_nrf\delay;..\..\..\sdk_components\drivers_nrf\gpiote;..\..\..\sdk_components\drivers_nrf\hal;..\..\..\sdk_components\drivers_nrf\uart;..\..\..\sdk_components\libraries\button;..\..\..\sdk_components\libraries\fifo;..\..\..\sdk_components\libraries\timer;..\..\..\sdk_components\libraries\trace;..\..\..\sdk_components\libraries\uart;..\..\..\sdk_components\libraries\util;..\..\..\sdk_components\softdevice\common\softdevice_handler;..\..\..\sdk_components\softdevice\s132\headers;..\..\..\sdk_components\softdevice\s132\headers\nrf52;..\..\..\sdk_components\toolchain;..\..\..\include\ble_services;..\..\..\include\drivers;..\..\..\include\board;..\..\..\include\modules;..\..\..\sdk_components\drivers_nrf\twi_master;..\..\..\sdk_components\libraries\led_softblink;..\..\..\sdk_components\libraries\low_power_pwm;..\..\..\include\macros;..\..\..\include\util;..\..\..\sdk_components\libraries\scheduler;..\..\..\sdk_components\libraries\fstorage;..\..\..\sdk_components\libraries\fds;..\..\..\sdk_components\libraries\experimental_section_vars;..\..\..\sdk_components\drivers_nrf\pwm;..\..\..\tools\sound;..\..\..\libs\eMD6\core\driver\include;..\..\..\libs\eMD6\core\driver\eMPL;..\..\..\libs\eMD6\core\mpl;..\..\..\libs\eMD6\core\mllite;..\..\..\libs\eMD6\core\eMPL-hal;..\..\..\libs\eMD6\core\driver\nRF52;..\..\..\sdk_components\libraries\log\src;..\..\..\sdk_components\libraries\log;..\..\..\sdk_components\ble\ble_services\ble_dfu;..\..\..\sdk_components\libraries\bootloader\dfu;..\..\..\sdk_components\libraries\crc32;..\..\..\sdk_components\drivers_nrf\saadc;..\..\..\include\util;..\..\..\libs\bv32fp-1.2;..\..\..\libs\dvi_adpcm;..\..\..\libs\sr3_audio;..\..\..\sdk_components\drivers_nrf\pdm;..\..\..\sdk_components\ble\ble_services\ble_bas</IncludePath>
+              <IncludePath>..\config;..\..\..\sdk_components\ble\ble_advertising;..\..\..\sdk_components\ble\common;..\..\..\external\segger_rtt;..\..\..\sdk_components\drivers_nrf\common;..\..\..\sdk_components\drivers_nrf\clock;..\..\..\sdk_components\drivers_nrf\config;..\..\..\sdk_components\drivers_nrf\delay;..\..\..\sdk_components\drivers_nrf\gpiote;..\..\..\sdk_components\drivers_nrf\hal;..\..\..\sdk_components\drivers_nrf\uart;..\..\..\sdk_components\libraries\button;..\..\..\sdk_components\libraries\fifo;..\..\..\sdk_components\libraries\timer;..\..\..\sdk_components\libraries\trace;..\..\..\sdk_components\libraries\uart;..\..\..\sdk_components\libraries\util;..\..\..\sdk_components\softdevice\common\softdevice_handler;..\..\..\sdk_components\softdevice\s132\headers;..\..\..\sdk_components\softdevice\s132\headers\nrf52;..\..\..\sdk_components\toolchain;..\..\..\include\ble_services;..\..\..\include\drivers;..\..\..\include\board;..\..\..\include\modules;..\..\..\sdk_components\drivers_nrf\twi_master;..\..\..\sdk_components\libraries\led_softblink;..\..\..\sdk_components\libraries\low_power_pwm;..\..\..\include\macros;..\..\..\include\util;..\..\..\sdk_components\libraries\scheduler;..\..\..\sdk_components\libraries\fstorage;..\..\..\sdk_components\libraries\fds;..\..\..\sdk_components\libraries\experimental_section_vars;..\..\..\sdk_components\drivers_nrf\pwm;..\..\..\tools\sound;..\..\..\libs\eMD6\core\driver\include;..\..\..\libs\eMD6\core\driver\eMPL;..\..\..\libs\eMD6\core\mpl;..\..\..\libs\eMD6\core\mllite;..\..\..\libs\eMD6\core\eMPL-hal;..\..\..\libs\eMD6\core\driver\nRF52;..\..\..\sdk_components\libraries\log\src;..\..\..\sdk_components\libraries\log;..\..\..\sdk_components\ble\ble_services\ble_dfu;..\..\..\sdk_components\libraries\bootloader\dfu;..\..\..\sdk_components\libraries\crc32;..\..\..\sdk_components\drivers_nrf\saadc;..\..\..\include\util;..\..\..\libs\bv32fp-1.2;..\..\..\libs\dvi_adpcm;..\..\..\libs\sr3_audio;..\..\..\sdk_components\drivers_nrf\pdm;..\..\..\sdk_components\ble\ble_services\ble_bas;..\..\..\sdk_components\ble\peer_manager;..\..\..\sdk_components\ble\ble_services\ble_hids;..\..\..\sdk_components\ble\ble_services\ble_dis</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -2053,11 +2138,59 @@
               <FileName>main.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\main.c</FilePath>
+              <FileOption>
+                <CommonProperty>
+                  <UseCPPCompiler>2</UseCPPCompiler>
+                  <RVCTCodeConst>0</RVCTCodeConst>
+                  <RVCTZI>0</RVCTZI>
+                  <RVCTOtherData>0</RVCTOtherData>
+                  <ModuleSelection>0</ModuleSelection>
+                  <IncludeInBuild>0</IncludeInBuild>
+                  <AlwaysBuild>2</AlwaysBuild>
+                  <GenerateAssemblyFile>2</GenerateAssemblyFile>
+                  <AssembleAssemblyFile>2</AssembleAssemblyFile>
+                  <PublicsOnly>2</PublicsOnly>
+                  <StopOnExitCode>11</StopOnExitCode>
+                  <CustomArgument></CustomArgument>
+                  <IncludeLibraryModules></IncludeLibraryModules>
+                  <ComprImg>1</ComprImg>
+                </CommonProperty>
+                <FileArmAds>
+                  <Cads>
+                    <interw>2</interw>
+                    <Optim>0</Optim>
+                    <oTime>2</oTime>
+                    <SplitLS>2</SplitLS>
+                    <OneElfS>2</OneElfS>
+                    <Strict>2</Strict>
+                    <EnumInt>2</EnumInt>
+                    <PlainCh>2</PlainCh>
+                    <Ropi>2</Ropi>
+                    <Rwpi>2</Rwpi>
+                    <wLevel>2</wLevel>
+                    <uThumb>2</uThumb>
+                    <uSurpInc>2</uSurpInc>
+                    <uC99>2</uC99>
+                    <useXO>2</useXO>
+                    <VariousControls>
+                      <MiscControls></MiscControls>
+                      <Define></Define>
+                      <Undefine></Undefine>
+                      <IncludePath></IncludePath>
+                    </VariousControls>
+                  </Cads>
+                </FileArmAds>
+              </FileOption>
             </File>
             <File>
               <FileName>m_ble.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\..\source\modules\m_ble.c</FilePath>
+            </File>
+            <File>
+              <FileName>m_ble_mouse.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\source\modules\m_ble_mouse.c</FilePath>
             </File>
             <File>
               <FileName>m_ble_flash.c</FileName>
@@ -2536,6 +2669,81 @@
               <FileType>1</FileType>
               <FilePath>..\..\..\sdk_components\ble\ble_services\ble_bas\ble_bas.c</FilePath>
             </File>
+            <File>
+              <FileName>gatt_cache_manager.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\sdk_components\ble\peer_manager\gatt_cache_manager.c</FilePath>
+            </File>
+            <File>
+              <FileName>gatts_cache_manager.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\sdk_components\ble\peer_manager\gatts_cache_manager.c</FilePath>
+            </File>
+            <File>
+              <FileName>id_manager.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\sdk_components\ble\peer_manager\id_manager.c</FilePath>
+            </File>
+            <File>
+              <FileName>peer_data.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\sdk_components\ble\peer_manager\peer_data.c</FilePath>
+            </File>
+            <File>
+              <FileName>peer_data_storage.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\sdk_components\ble\peer_manager\peer_data_storage.c</FilePath>
+            </File>
+            <File>
+              <FileName>peer_database.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\sdk_components\ble\peer_manager\peer_database.c</FilePath>
+            </File>
+            <File>
+              <FileName>peer_id.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\sdk_components\ble\peer_manager\peer_id.c</FilePath>
+            </File>
+            <File>
+              <FileName>peer_manager.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\sdk_components\ble\peer_manager\peer_manager.c</FilePath>
+            </File>
+            <File>
+              <FileName>pm_buffer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\sdk_components\ble\peer_manager\pm_buffer.c</FilePath>
+            </File>
+            <File>
+              <FileName>pm_mutex.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\sdk_components\ble\peer_manager\pm_mutex.c</FilePath>
+            </File>
+            <File>
+              <FileName>security_dispatcher.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\sdk_components\ble\peer_manager\security_dispatcher.c</FilePath>
+            </File>
+            <File>
+              <FileName>security_manager.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\sdk_components\ble\peer_manager\security_manager.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>nRF_BLE_Services</GroupName>
+          <Files>
+            <File>
+              <FileName>ble_dis.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\sdk_components\ble\ble_services\ble_dis\ble_dis.c</FilePath>
+            </File>
+            <File>
+              <FileName>ble_hids.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\sdk_components\ble\ble_services\ble_hids\ble_hids.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -2767,6 +2975,11 @@
                   </Cads>
                 </FileArmAds>
               </FileOption>
+            </File>
+            <File>
+              <FileName>app_error_weak.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\sdk_components\libraries\util\app_error_weak.c</FilePath>
             </File>
             <File>
               <FileName>app_scheduler.c</FileName>
@@ -3701,6 +3914,11 @@
               <FilePath>..\..\..\source\modules\m_ble.c</FilePath>
             </File>
             <File>
+              <FileName>m_ble_mouse.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\source\modules\m_ble_mouse.c</FilePath>
+            </File>
+            <File>
               <FileName>m_ble_flash.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\..\source\modules\m_ble_flash.c</FilePath>
@@ -4177,6 +4395,81 @@
               <FileType>1</FileType>
               <FilePath>..\..\..\sdk_components\ble\ble_services\ble_bas\ble_bas.c</FilePath>
             </File>
+            <File>
+              <FileName>gatt_cache_manager.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\sdk_components\ble\peer_manager\gatt_cache_manager.c</FilePath>
+            </File>
+            <File>
+              <FileName>gatts_cache_manager.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\sdk_components\ble\peer_manager\gatts_cache_manager.c</FilePath>
+            </File>
+            <File>
+              <FileName>id_manager.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\sdk_components\ble\peer_manager\id_manager.c</FilePath>
+            </File>
+            <File>
+              <FileName>peer_data.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\sdk_components\ble\peer_manager\peer_data.c</FilePath>
+            </File>
+            <File>
+              <FileName>peer_data_storage.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\sdk_components\ble\peer_manager\peer_data_storage.c</FilePath>
+            </File>
+            <File>
+              <FileName>peer_database.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\sdk_components\ble\peer_manager\peer_database.c</FilePath>
+            </File>
+            <File>
+              <FileName>peer_id.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\sdk_components\ble\peer_manager\peer_id.c</FilePath>
+            </File>
+            <File>
+              <FileName>peer_manager.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\sdk_components\ble\peer_manager\peer_manager.c</FilePath>
+            </File>
+            <File>
+              <FileName>pm_buffer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\sdk_components\ble\peer_manager\pm_buffer.c</FilePath>
+            </File>
+            <File>
+              <FileName>pm_mutex.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\sdk_components\ble\peer_manager\pm_mutex.c</FilePath>
+            </File>
+            <File>
+              <FileName>security_dispatcher.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\sdk_components\ble\peer_manager\security_dispatcher.c</FilePath>
+            </File>
+            <File>
+              <FileName>security_manager.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\sdk_components\ble\peer_manager\security_manager.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>nRF_BLE_Services</GroupName>
+          <Files>
+            <File>
+              <FileName>ble_dis.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\sdk_components\ble\ble_services\ble_dis\ble_dis.c</FilePath>
+            </File>
+            <File>
+              <FileName>ble_hids.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\sdk_components\ble\ble_services\ble_hids\ble_hids.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -4408,6 +4701,11 @@
                   </Cads>
                 </FileArmAds>
               </FileOption>
+            </File>
+            <File>
+              <FileName>app_error_weak.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\sdk_components\libraries\util\app_error_weak.c</FilePath>
             </File>
             <File>
               <FileName>app_scheduler.c</FileName>
@@ -5342,6 +5640,11 @@
               <FilePath>..\..\..\source\modules\m_ble.c</FilePath>
             </File>
             <File>
+              <FileName>m_ble_mouse.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\source\modules\m_ble_mouse.c</FilePath>
+            </File>
+            <File>
               <FileName>m_ble_flash.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\..\source\modules\m_ble_flash.c</FilePath>
@@ -5818,6 +6121,81 @@
               <FileType>1</FileType>
               <FilePath>..\..\..\sdk_components\ble\ble_services\ble_bas\ble_bas.c</FilePath>
             </File>
+            <File>
+              <FileName>gatt_cache_manager.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\sdk_components\ble\peer_manager\gatt_cache_manager.c</FilePath>
+            </File>
+            <File>
+              <FileName>gatts_cache_manager.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\sdk_components\ble\peer_manager\gatts_cache_manager.c</FilePath>
+            </File>
+            <File>
+              <FileName>id_manager.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\sdk_components\ble\peer_manager\id_manager.c</FilePath>
+            </File>
+            <File>
+              <FileName>peer_data.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\sdk_components\ble\peer_manager\peer_data.c</FilePath>
+            </File>
+            <File>
+              <FileName>peer_data_storage.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\sdk_components\ble\peer_manager\peer_data_storage.c</FilePath>
+            </File>
+            <File>
+              <FileName>peer_database.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\sdk_components\ble\peer_manager\peer_database.c</FilePath>
+            </File>
+            <File>
+              <FileName>peer_id.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\sdk_components\ble\peer_manager\peer_id.c</FilePath>
+            </File>
+            <File>
+              <FileName>peer_manager.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\sdk_components\ble\peer_manager\peer_manager.c</FilePath>
+            </File>
+            <File>
+              <FileName>pm_buffer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\sdk_components\ble\peer_manager\pm_buffer.c</FilePath>
+            </File>
+            <File>
+              <FileName>pm_mutex.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\sdk_components\ble\peer_manager\pm_mutex.c</FilePath>
+            </File>
+            <File>
+              <FileName>security_dispatcher.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\sdk_components\ble\peer_manager\security_dispatcher.c</FilePath>
+            </File>
+            <File>
+              <FileName>security_manager.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\sdk_components\ble\peer_manager\security_manager.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>nRF_BLE_Services</GroupName>
+          <Files>
+            <File>
+              <FileName>ble_dis.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\sdk_components\ble\ble_services\ble_dis\ble_dis.c</FilePath>
+            </File>
+            <File>
+              <FileName>ble_hids.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\sdk_components\ble\ble_services\ble_hids\ble_hids.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -6049,6 +6427,11 @@
                   </Cads>
                 </FileArmAds>
               </FileOption>
+            </File>
+            <File>
+              <FileName>app_error_weak.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\sdk_components\libraries\util\app_error_weak.c</FilePath>
             </File>
             <File>
               <FileName>app_scheduler.c</FileName>

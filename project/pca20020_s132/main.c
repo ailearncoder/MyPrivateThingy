@@ -71,7 +71,6 @@
 #include "pca20020.h"
 #include "app_error.h"
 #include "support_func.h"
-#include "m_oled.h"
 
 #define DEAD_BEEF   0xDEADBEEF          /**< Value used as error code on stack dump, can be used to identify stack location on stack unwind. */
 #define SCHED_MAX_EVENT_DATA_SIZE   MAX(APP_TIMER_SCHED_EVT_SIZE, BLE_STACK_HANDLER_SCHED_EVT_SIZE) /**< Maximum size of scheduler events. */
@@ -342,7 +341,6 @@ static void thingy_init(void)
     m_motion_init_t          motion_params;
     m_ble_init_t             ble_params;
     batt_meas_init_t         batt_meas_init = BATT_MEAS_PARAM_CFG;
-		m_oled_init_t            oled_params;
 
     /**@brief Initialize the TWI manager. */
     err_code = twi_manager_init(APP_IRQ_PRIORITY_THREAD);
